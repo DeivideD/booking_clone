@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/person.css">
+    <link rel="stylesheet" type="text/css" href="../js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../js/slick/slick-theme.css">
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <div class="clean"></div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm">
+                <h3>Encontre ofertas em hotéis, casas, apartamentos e muito mais...</h3>
+                <span>De hotéis-fazenda aconchegantes a apartamentos modernos na cidade</span>
+            </div>
+        </div>
+        <div class="clean"></div>
+        <div class="row ">
+            <div class="col-sm">
+
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text" id=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16">
+  													<path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+ 													  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+														</svg></div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Para onde você vai ?">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text" id=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-day" viewBox="0 0 16 16">
+																<path d="M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z"/>
+																<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+															</svg></div>
+                                </div>
+                                <input type="date" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Data">
+                            </div>
+
+                        </div>
+                        <div class="col">
+                            <div class="input-group ">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text" id=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+															<path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+															<path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+															<path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                           </svg></div>
+                                </div>
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Quantida de pessoas">
+                            </div>
+
+                        </div>
+                        <div class="col"><button type="button" class="btn btn-primary">Pesquisar</button></div>
+
+                    </div>
+                </form>
+            </div><br>
+
+            <div class="clean"></div>
+
+
+
+        </div>
+        <div class="row ">
+            <div class="col-sm">
+                <h3>Conheça o Brasil</h3><br>
+                <p>Estes destinos incríveis têm muito a oferecer</p>
+            </div>
+        </div>
+
+        <div class="row " id="cities">
+
+        </div>
+
+    </div>
+
+    <section class="regular slider">
+        <div>
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o= ">
+            <h4>Hotéis</h4>
+            <span>781.958 hotéis</span>
+        </div>
+        <div>
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-apartments_300/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg ">
+            <h4>Apartamentos</h4>
+            <span>774.874 apartamentos</span>
+        </div>
+        <div>
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_resorts/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg ">
+            <h4>Resorts</h4>
+            <span>781.958 Resorts</span>
+        </div>
+        <div>
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-villas_300/dd0d7f8202676306a661aa4f0cf1ffab31286211.jpg ">
+            <h4>Villas</h4>
+            <span>781.58 Villas</span>
+        </div>
+        <div>
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-chalet_300/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg ">
+            <h4>Chalés alpinos</h4>
+            <span>81.958 Chalés alpinos</span>
+        </div>
+        <div>
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_cottages/5e1fd9cd716f4825c6c7eac5abe692c52cc64516.jpg ">
+            <h4>Casas de campo</h4>
+            <span>781.958 Casas de campo</span>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/person.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick/slick.js"></script>
+</body>
+
+</html>
