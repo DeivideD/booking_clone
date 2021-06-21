@@ -30,7 +30,7 @@
 
      function writeContentAdm() {
          let html = "";
-         let acomadacoes = [
+         let acomodacoes = [
              { image: "https://cf.bstatic.com/xdata/images/hotel/square200/279745101.webp?k=8669d3657fb3cf76eca7b186d61e14ed1fdd9ffb9062b94f3a9a5ac46d1c6e76&o=", name: "Hotel Express", description: "O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina. O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina." },
              { image: "https://cf.bstatic.com/xdata/images/hotel/square200/295407890.webp?k=7a56c61fcfdb4d534cfdbc78aa5bfecf61a01f6b5727399dbcb7888821d2009b&o=", name: "Fortaleza Beach", description: "O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina. O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina." },
              { image: "https://cf.bstatic.com/xdata/images/hotel/square200/184060191.webp?k=470c1a9493c261c8bd75fe4a1fa7307c43b928b9c9895b0ad8da1113ee814ea1&o=", name: "Village Hotel", description: "O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina. O Hotel oferece acomodações com Wi-Fi gratuito e estacionamento privativo gratuito, bem como acesso a uma piscina." },

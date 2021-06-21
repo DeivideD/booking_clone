@@ -1,6 +1,6 @@
 # Booking Clone
 
-o prjeto foi realizado buscando demonstrar habilidades e intimidade com as principais ferramentas de desenvolvimento web,
+o projeto foi realizado buscando demonstrar habilidades e intimidade com as principais ferramentas de desenvolvimento web,
 não se trata de um sistema completo, temos apenas três paginas e nelas tento reproduzir um sistema de cadastro de reservas.  
 
 📌 Informaçoes de Acesso
